@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介-黒田芽依</title>
+</head>
+
+<body>
+    <h1>自己紹介</h1>
+
+    <h2>プロフィール</h2>
+        <p>名前:黒田　芽依</p>
+        <p>年齢:35歳</p>
+        <p>出身地:大阪</p>
+        <p>趣味:音楽を聴く、映画鑑賞、LIVE</p>
+
+    <h2>好きなもの</h2>
+    <ul>
+        <li>お寿司</li>
+        <li>麻辣湯</li>
+        <li>焼肉</li>
+    </ul>
+
+    <h2>今年の目標</h2>
+        <ol>
+            <li>Proに合格し収入を得る</li>
+            <li>3人にとっていい生活を送る</li>
+            <li>幼稚園のママ友とできるだけ関わり情報収集をする</li>
+        </ol>
+
+    <h2>リンク</h2>
+    <a href="https://github.com/gomashio-no-omusubi" target="_blank">私のGitHub</a>
+
+    <h2>好きな風景</h2>
+    <img src="landscape.jpg" alt="好きな風景" width="400">
+    
+    <h2>お問い合わせ</h2>
+    <form action="/submit" method="POST">
+        <div>
+            <label for="contact-name">お名前:</label>
+            <input type="text" id="contact-name" name="name" required>
+        </div>
+        <div>
+            <label for="contact-category">お問い合わせ種別:</label>
+            <select id="contact-category" name="inquiry-type">
+                <option value="">--選択してください--</option>
+                <option value="inquiry">一般的なお問い合わせ</option>
+                <option value="requests">ご意見・ご要望</option>
+            </select>
+        </div>
+        <div>
+            <label for="contact-message">お問い合わせ内容:</label>
+            <textarea id="contact-message" name="message" row="5" required></textarea>
+        </div>
+        <div>
+            <button type="submit">送信する</button>
+        </div>
+    </form>
+</body>
+</html>
