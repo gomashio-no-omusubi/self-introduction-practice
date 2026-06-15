@@ -17,7 +17,7 @@ COACHTECH教材のハンズオン演習で作成した、シンプルな自己�
 - **フォーム要素の理解**: `select`タグの正しい階層構造や、アクセシビリティを意識した`label`タグの活用
 - **苦手の克服**: 点と点だった知識が繋がり、HTMLへの苦手意識を前向きな学習意欲に変えることができました。
 
-## 動作確認(閲覧方法)
+## 動作確認（閲覧方法）
 
 ローカル環境（PC内）でページを確認する場合は、以下の手順で行えます。
 
@@ -27,7 +27,7 @@ COACHTECH教材のハンズオン演習で作成した、シンプルな自己�
 git clone git@github.com:gomashio-no-omusubi/self-introduction-practice.git
 ```
 
-### 2.クローンしたプロジェクトのディレクトリに移動します
+### 2.作成したディレクトリに移動
 
 ```bash
 cd self-introduction-practice
@@ -35,5 +35,5 @@ cd self-introduction-practice
 
 ### 3.ブラウザでの表示
 
-    ディレクトリ内の `index.html` を Google Chrome などのブラウザにドラッグ＆ドロップして開いてください。
-    （VSCodeの拡張機能「Live Server」での起動も可能です）
+プロジェクトディレクトリ内にある `index.html` を Google Chrome などのブラウザに直接ドラッグ＆ドロップして開いてください。
+（※ VSCodeの拡張機能「Live Server」での起動も可能です）
