@@ -27,7 +27,7 @@ COACHTECH教材のハンズオン演習で作成した、シンプルな自己�
 git clone git@github.com:gomashio-no-omusubi/self-introduction-practice.git
 ```
 
-### 2.作成したディレクトリに移動
+### 2.クローンしたディレクトリに移動
 
 ```bash
 cd self-introduction-practice
